@@ -1,9 +1,18 @@
 html,
 body {
+  height: 100vh;
+  width: 100vw;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Helvetica Neue';
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url('../public/Whispering_Rock.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
 }
 
 a {
@@ -13,4 +22,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: 3px 3px 3px black;
+}
+
+.intro-text {
+  background: rgb(2,0,36);
+  background: linear-gradient(132deg, rgba(2,0,36,0.6601234243697479) 0%, rgba(66,66,66,0.45284051120448177) 100%, rgba(0,212,255,1) 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.badge-status {
+  padding-top: 0.5rem;
 }
